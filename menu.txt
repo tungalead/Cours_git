@@ -20,71 +20,6 @@
 	   <tab idMso="TabRestore" visible="false" />
 	   <!-- <tab idMso="TabMinimize" visible="false" /> -->
 	   <!-- saisie des donn&#233;es de base -->
-        <tab id="TABDonnes" label="Cr&#233;ation Des Donn&#233;es de Base">
-         <group id="GRPKC" label="K-C Consulting">
-                 <button id="BCKCC" label="Cr&#233;ation du Bureau" onAction="B_KCconsulting" imageMso="AdpOutputOperationsAddToOutput" size="large"/>
-         </group>
-         <group id="GRPFAC" label="Saisie Des Donn&#233;es de Base Factures">
-                 <button id="BCCLIENT" label="Cr&#233;ation des Clients" onAction="B_Client" imageMso="AdpOutputOperationsAddToOutput" size="large"/>
-         </group>
-         <group id="GRPRC" label="Saisie Des Donn&#233;es de Base Re&#231;us">
-                  <button id="BCPREST" label="Cr&#233;ation des Prestataires" onAction="B_Prestataire" imageMso="AdpOutputOperationsAddToOutput" size="large"/>
-         </group>
-         <group id="GRPBKQ" label="Saisie Informations Bancaires">
-                 <button id="BCBANK" label="Cr&#233;ation des Comptes Bank" onAction="B_CompteBank" imageMso="AdpOutputOperationsAddToOutput" size="large"/>
-         </group>
-        
-         <!--LEs Etats sur les Informations de Base de K-C Consulting-->
-         </tab>
-         <tab id="TABImpDB" label="Rapport Sur Donn&#233;es de Base">
-         <group id="GRPETATDBASE" label="Etat Sur Les Donn&#233;es de Base">
-                        <separator id="SEP44"/>
-                 <button id="BETATKCC" label="Info K-C Consulting" onAction="B_Etat_KCConsulting" imageMso="FilePrintQuick" size="large"/>
-                        <separator id="SEP31"/><separator id="SEP32"/><separator id="SEP33"/>
-		     <button id="BETATLCLIENT" label="Liste Des Clients" onAction="B_Etat_LClient" imageMso="CreateReport" size="large"/>
-                        <separator id="SEP34"/><separator id="SEP35"/><separator id="SEP36"/>
-                 <!--<button id="BETATCACT" label="Liste Des Activit&#233;s Client" onAction="B_Etat_LActivite" imageMso="CreateReport" size="large"/>-->
-                 <!--<separator id="SEP37"/><separator id="SEP38"/><separator id="SEP39"/>-->
-                 <button id="BETATPREST" label="Liste Des Prestatires" onAction="B_Etat_LPrestataire" imageMso="CreateReport" size="large"/>
-                        <separator id="SEP40"/><separator id="SEP41"/><separator id="SEP42"/>
-                 <button id="BETATCBANK" label="La Liste Des Comptes Bank" onAction="B_Etat_LCompteBank" imageMso="CreateReport" size="large"/>
-				        <separator id="SEP43"/>
-         </group>
-        </tab>
-
-        <!--Creation et Imperssion des Factures et Recus-->
-        <tab id="TABFactureRecus" label="Cr&#233;ation Factures Et Re&#231;us">
-         <group id="GRPFR" label="Cr&#233;ation - Factures et Re&#231;us">
-                        <separator id="SEP55"/>
-                   <button id="BCFACTURE" label="Cr&#233;ation Facture" onAction="B_Facture" imageMso="AdpOutputOperationsAddToOutput" size="large"/>
-                        <separator id="SEP51"/><separator id="SEP52"/><separator id="SEP53"/>
-		     <button id="BCRECU" label="Cr&#233;ation Re&#231;us" onAction="B_Recu" imageMso="AdpOutputOperationsAddToOutput" size="large"/>
-                        <separator id="SEP54"/>
-         </group>
-        </tab>
-		
-	  <!-- Mise A Jour Factures et Recus -->
-        <tab id="TABMiseAJour" label="Mise A Jour">
-         <group id="GRPPROGRAM1" label="Mise A Jour Factures et Re&#231;us">
-                        <separator id="SEP65"/>
-                  <button id="BMAJFACTURE" label="Mise A Jour Facture" onAction="B_MAJFacture" imageMso="AdpDiagramAddTable" size="large"/>
-                        <separator id="SEP61"/><separator id="SEP62"/><separator id="SEP63"/>
-                  <button id="BMAJRECU" label="Mise A Jour Re&#231;us" onAction="B_MAJRecu" imageMso="AdpDiagramAddTable" size="large"/>
-                        <separator id="SEP64"/>
-         </group>
-       </tab>
-	   
-	<!-- Suivi des Factures et Recus -->
-	<tab id="TABSuiviFR" label="Suivi Des Factures et Recus">
-         <group id="GRPSFACTREC" label="Impression Etats De Suivi">
-                        <separator id="SEP71"/>
-                  <button id="BMSFACT" label="Etat Suivi Facture" onAction="B_ESFacture" imageMso="CreateReport" size="large"/>
-                        <separator id="SEP72"/><separator id="SEP73"/><separator id="SEP74"/>
-                  <button id="BMSREC" label="Etat Suivi RECUS" onAction="B_ESRecu" imageMso="CreateReport" size="large"/>
-                        <separator id="SEP75"/>
-         </group>
-       </tab>
-       
 <!-- Ajouter un Utilisateur -->
        <tab id="TABUtilisateur" label="Gestion Des Utilisateurs">
          <group id="GRPUTILISATEUR" label="Cr&#233;ation Utilisateur">
@@ -105,3 +40,4 @@
     </tabs>
   </ribbon> 
 </customUI>
+
