@@ -20,15 +20,6 @@
 	   <tab idMso="TabRestore" visible="false" />
 	   <!-- <tab idMso="TabMinimize" visible="false" /> -->
 	   <!-- saisie des donn&#233;es de base -->
-<!-- Ajouter un Utilisateur -->
-       <tab id="TABUtilisateur" label="Gestion Des Utilisateurs">
-         <group id="GRPUTILISATEUR" label="Cr&#233;ation Utilisateur">
-                        <separator id="SEP1001"/>
-                  <button id="BADDUSER" label="Ajouter Utilisateur" onAction="B_Ajouter_Utilisateur" imageMso="AdpOutputOperationsAddToOutput" size="large"/>
-                        <separator id="SEP1002"/>
-         </group>
-       </tab>
-
        <!-- Fermer l'application -->
        <tab id="TABSortie" label="Fermer Application">
          <group id="GRPFERMER" label="Quiter">
